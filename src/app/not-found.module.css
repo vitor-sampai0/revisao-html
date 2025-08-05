@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f9fa;
+}
+
+.errorCode {
+    font-size: 8rem;
+    font-weight: bold;
+    color: #6c757d;
+    margin: 0;
+    line-height: 1;
+}
+
+.title {
+    font-size: 2rem;
+    color: #343a40;
+    margin: 1rem 0;
+}
+
+.message {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+    max-width: 500px;
+}
+
+.homeButton {
+    background-color: #007bff;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.homeButton:hover {
+    background-color: #0056b3;
+}
