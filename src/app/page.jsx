@@ -3,7 +3,6 @@
 import ProductCard from '../components/productCard/ProductCard';
 import { useState, useEffect } from 'react';
 import { productsData } from '../../data/products';
-import Header from '../components/header/Header';
 import styles from './page.module.css';
 
 export default function HomePage() {
@@ -18,7 +17,6 @@ export default function HomePage() {
 
   return (
     <div className={styles.container}>
-      <Header/>
       <div className={styles.products}>
               {products.map(product => (
         <ProductCard key={product.id} product={product} />

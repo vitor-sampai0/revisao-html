@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import Header from "../components/header/Header"
 
 // Configurar fonte local baixada
 const cormorantGaramond = localFont({
@@ -22,6 +23,9 @@ const cormorantGaramond = localFont({
 export default function RootLayout({ children }) {
     return (
         <html lang="pt-BR" className={cormorantGaramond.variable}>
+            <header>
+                <Header/>
+            </header>
             <body className={cormorantGaramond.className}>
                 <main>{children}</main>
             </body>

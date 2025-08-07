@@ -1,8 +1,9 @@
+"use client"
+
 import React from 'react';
 import styles from './Header.module.css';
 import { productsData } from '../../../data/products';
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
 
 export default function ProductCard() {
     const [products, setProducts] = useState([]);
