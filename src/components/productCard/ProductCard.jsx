@@ -7,6 +7,12 @@ import { toast, ToastContainer } from "react-toastify";
 export default function ProductCard({ product }) {
   const addCart = () => {
     toast(product.title + " Adicionado ao Carrinho", {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
       style: {
         background: "linear-gradient(135deg, #b5b8c6ff 0%, #151515ff 100%)",
         color: "white",
@@ -16,6 +22,12 @@ export default function ProductCard({ product }) {
   };
   const addFavorite = () => {
     toast(product.title + " Adicionado aos Favoritos", {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
       style: {
         background: "linear-gradient(135deg, #b5b8c6ff 0%, #151515ff 100%)",
         color: "white",
