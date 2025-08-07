@@ -28,8 +28,8 @@ export const productsData = [
     {
         id: 3,
         title: 'MacBook Pro 14" M3 Pro 18GB',
-        price: 'R$ 15.999,00',
-        description: 'Performance profissional com chip M3 Pro, tela Liquid Retina XDR e bateria de longa duração.',
+        price: 'R$ 15.000,00',
+        description: 'Performance profissional com chip M3 Pro',
         image: 'https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=300&h=200&fit=crop',
         rating: {
             stars: 5,
